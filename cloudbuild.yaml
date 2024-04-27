@@ -10,7 +10,7 @@ steps:
   args:
   - run
   - --filename=gke.yaml
-  - --image=gcr.io/$PROJECT_ID/gcpdevops
+  - --image=gcr.io/valiant-sanctum-420714/gcpdevops
   - --location=us-central1-c
   - --cluster=gcp-devops-cluster
   - --namespace=gcp-devops-prod
