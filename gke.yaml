@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/valiant-sanctum-420714/gcpdevops:latest
+        image: gcr.io/valiant-sanctum-420714/gcpdevops@sha256:ebc7d13bb3e5ea878d7a4e68f01a1c49bb2b8aa0315989ba081a47615bdb843d
         ports:
         - containerPort: 5000
         env:
